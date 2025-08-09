@@ -1,5 +1,6 @@
 ' ----------------------------
 ' UFT VBScript: Login to GitHub
+' Add the credentials to datatable before running the script
 ' ----------------------------
 
 'Declare credentials from datatable
@@ -7,12 +8,9 @@ Dim githubUser, githubPass
 githubUser = DataTable.Value("GitHubUser", dtGlobalSheet)
 githubPass = DataTable.Value("GitHubPass", dtGlobalSheet)
 
-'Hardcode the credentials - don't move to production
-' githubUser = "username"
-' githubPass = "password"
-
 'Declare obj BrowserPage
 Set oBrowserPage = Browser("name:=Sign in.*").Page("title:=Sign in.*")
+
 
 '----- Start execution steps -----
 
