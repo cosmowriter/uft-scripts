@@ -8,6 +8,8 @@ This repository contains a **Unified Functional Testing (UFT)** automation scrip
 - **Browser:** Chrome (with UFT Web Add-in enabled)
 - **Credentials:** Taken from UFT Data Table (recommended) or hardcoded for quick testing.
 
+---
+
 ## Features
 - Launches Chrome and navigates to the GitHub login page.
 - Uses descriptive objects for Browser, Page, WebEdit, and WebButton.
