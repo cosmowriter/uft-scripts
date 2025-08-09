@@ -22,6 +22,8 @@ This repository contains a **Unified Functional Testing (UFT)** automation scrip
 - Includes basic login verification by checking for the profile avatar after login.
 - Uses UFT `Reporter.ReportEvent` for logging test steps.
 
+---
+
 ## How to Use
 1. **Open UFT** and load the script.
 2. In the **Global Data Table**:
@@ -33,16 +35,22 @@ This repository contains a **Unified Functional Testing (UFT)** automation scrip
    - Browser automation extension is installed.
 4. Run the script from UFT.
 
+---
+
 ## Requirements
 - **UFT Version:** 14.x or above
 - **Browser:** Chrome (latest) or supported browser with UFT extension.
 - **Add-ins:** Web Add-in enabled
 - **Language:** VBScript
 
+---
+
 ## Notes
 - Hardcoding credentials in the script is **not recommended**.
 - If GitHub prompts for 2FA, script will not handle OTP entry.
 - For different browsers, modify `SystemUtil.Run` or `Browser().Navigate` accordingly.
+
+---
 
 ## License
 This project is open-source. Feel free to modify and use for learning or internal automation purposes.
